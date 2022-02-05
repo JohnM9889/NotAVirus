@@ -259,15 +259,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3039776206827660459, guid: b1ba9e45c7a770f4f9b408f2a9b34c36, type: 3}
       propertyPath: twitchDetails.nick
-      value: uberthemeh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3039776206827660459, guid: b1ba9e45c7a770f4f9b408f2a9b34c36, type: 3}
       propertyPath: twitchDetails.oauth
-      value: oauth:prffx3j8costvibdmda73kcoofvbpk
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3039776206827660459, guid: b1ba9e45c7a770f4f9b408f2a9b34c36, type: 3}
       propertyPath: twitchDetails.channel
-      value: uberthemeh
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b1ba9e45c7a770f4f9b408f2a9b34c36, type: 3}
