@@ -1559,6 +1559,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1796282970957345317, guid: 204821cbe4d8ecb4f938061f1cfbf9ce, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: caf31eae86a8b0b4da03b8dd67aed3cd, type: 2}
     - target: {fileID: 1796282971747820237, guid: 204821cbe4d8ecb4f938061f1cfbf9ce, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -1603,40 +1607,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1796282971747820239, guid: 204821cbe4d8ecb4f938061f1cfbf9ce, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"groundCollider","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"unshelledModel","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"shelledModel","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"IsBoosting","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 1796282971747820242, guid: 204821cbe4d8ecb4f938061f1cfbf9ce, type: 3}
-      propertyPath: m_Constraints
-      value: 112
-      objectReference: {fileID: 0}
     - target: {fileID: 1796282971747820243, guid: 204821cbe4d8ecb4f938061f1cfbf9ce, type: 3}
       propertyPath: m_Name
       value: Player Contoller
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1796282970091495709, guid: 204821cbe4d8ecb4f938061f1cfbf9ce, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 204821cbe4d8ecb4f938061f1cfbf9ce, type: 3}
---- !u!1 &1709238958 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1796282971747820243, guid: 204821cbe4d8ecb4f938061f1cfbf9ce, type: 3}
-  m_PrefabInstance: {fileID: 1709238957}
-  m_PrefabAsset: {fileID: 0}
---- !u!136 &1709238959
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709238958}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2.0149267
-  m_Direction: 1
-  m_Center: {x: 0, y: 0.009118301, z: 0}
 --- !u!1 &1718433481
 GameObject:
   m_ObjectHideFlags: 0
