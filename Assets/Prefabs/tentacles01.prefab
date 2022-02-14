@@ -9,7 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5043477169789686184}
-  m_Layer: 0
+  - component: {fileID: 1146406184530936644}
+  - component: {fileID: 7667586084380406059}
+  - component: {fileID: 1607114043}
+  m_Layer: 7
   m_Name: tentacles01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25,12 +28,57 @@ Transform:
   m_GameObject: {fileID: 5671676178166647570}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.2988815, y: 0.01, z: 4.936284}
-  m_LocalScale: {x: 0.2548, y: 0.2548, z: 0.2548}
+  m_LocalScale: {x: 0.34257856, y: 0.3425786, z: 0.34257856}
   m_Children:
   - {fileID: 1634461848826088748}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1146406184530936644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5671676178166647570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"visual","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 6961519281959407775}
+--- !u!114 &7667586084380406059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5671676178166647570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: cbcc1fb4810e0e04fbe727615e482c4d, type: 2}
+--- !u!135 &1607114043
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5671676178166647570}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 8.14
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6961519281959407775
 GameObject:
   m_ObjectHideFlags: 0
@@ -42,7 +90,7 @@ GameObject:
   - component: {fileID: 1634461848826088748}
   - component: {fileID: 7774321512316162556}
   - component: {fileID: 8269494293756328876}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: tentacles01
   m_TagString: Untagged
   m_Icon: {fileID: 0}

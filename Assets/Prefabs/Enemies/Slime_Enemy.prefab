@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 172064327412455296}
   - component: {fileID: 172064327412455327}
   - component: {fileID: 172064327412455326}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Enemy_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: 172064327458334718}
   - component: {fileID: 172064327458334719}
   - component: {fileID: 172064327458334715}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Slime_Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -133,11 +133,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"self_collider","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Whole_enemy","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"freezelocation","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"TailPosition","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"self_collider","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Whole_enemy","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"freezelocation","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"TailPosition","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PatrolPoint
+      1","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PatrolPoint
+      2","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 172064327766560666}
     - {fileID: 172064327458334714}
     - {fileID: 4305996575851254982}
+    - {fileID: 0}
+    - {fileID: 0}
 --- !u!195 &172064327458334718
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -204,7 +208,7 @@ GameObject:
   - component: {fileID: 172064327766560669}
   - component: {fileID: 172064327766560667}
   - component: {fileID: 172064327766560668}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Enemy_collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -275,7 +279,7 @@ GameObject:
   - component: {fileID: 4305996574612940749}
   - component: {fileID: 4305996574612940748}
   - component: {fileID: 4305996574612940747}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -369,7 +373,7 @@ GameObject:
   - component: {fileID: 4305996575851254983}
   - component: {fileID: 4305996575851255001}
   - component: {fileID: 4305996575851255000}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Tail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -451,7 +455,7 @@ GameObject:
   - component: {fileID: 4305996576418601692}
   - component: {fileID: 4305996576418601691}
   - component: {fileID: 4305996576418601690}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Body (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -546,7 +550,7 @@ GameObject:
   - component: {fileID: 4305996576534770548}
   - component: {fileID: 4305996576534770547}
   - component: {fileID: 4305996576534770546}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Body (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
