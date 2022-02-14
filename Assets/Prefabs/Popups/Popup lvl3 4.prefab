@@ -67,7 +67,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 57e30b6078fdf0742a03ab6004d4f2cd, type: 3}
-  m_Type: 0
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -207,7 +207,7 @@ GameObject:
   - component: {fileID: 3080924932778428432}
   - component: {fileID: 3080924932778428439}
   m_Layer: 5
-  m_Name: Popup lvl3 1
+  m_Name: Popup lvl3 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -336,7 +336,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 762a7521a45cd7844af3b460d44d3c27, type: 3}
-  m_Type: 0
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -423,8 +423,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 33.4, y: 43}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -2.8, y: 43}
+  m_SizeDelta: {x: 71.1, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8798291219283064237
 CanvasRenderer:

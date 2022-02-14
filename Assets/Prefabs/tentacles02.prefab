@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7054527863294041682}
   - component: {fileID: 4187498745174293242}
   - component: {fileID: 8615010271182840991}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: tentacles02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,7 +90,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7220881656971828178}
-  m_Layer: 0
+  - component: {fileID: -1112117803054453003}
+  - component: {fileID: -5276368107578276010}
+  - component: {fileID: 8262065621443877780}
+  m_Layer: 7
   m_Name: tentacles02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -112,3 +115,48 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-1112117803054453003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6912011163992898890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"visual","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 5479860817007880775}
+--- !u!114 &-5276368107578276010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6912011163992898890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: cbcc1fb4810e0e04fbe727615e482c4d, type: 2}
+--- !u!135 &8262065621443877780
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6912011163992898890}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 4.95
+  m_Center: {x: 1.61, y: 5.59, z: 0}
