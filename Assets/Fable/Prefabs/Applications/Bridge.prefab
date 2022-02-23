@@ -124,6 +124,8 @@ GameObject:
   - component: {fileID: 8696004235583266353}
   - component: {fileID: 4951973565687448193}
   - component: {fileID: 6548582499414418284}
+  - component: {fileID: 4585897532099759815}
+  - component: {fileID: 8231024600679762046}
   m_Layer: 7
   m_Name: Bridge
   m_TagString: Untagged
@@ -138,7 +140,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6670937867304243471}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -5.19, y: -0.203, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -175,6 +177,37 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5.993923, y: 0.45549124, z: 2.5401819}
   m_Center: {x: -2.19, y: -0.09334436, z: -0.007778764}
+--- !u!114 &4585897532099759815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6670937867304243471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"SpawnButton","value":null,"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!114 &8231024600679762046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6670937867304243471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: a6f5d63f8ebccad478a6c35b65b484be, type: 2}
 --- !u!1 &8006889700317774121
 GameObject:
   m_ObjectHideFlags: 0
