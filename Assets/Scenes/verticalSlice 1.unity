@@ -1317,7 +1317,7 @@ GameObject:
   - component: {fileID: 258245244}
   - component: {fileID: 258245243}
   - component: {fileID: 258245242}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1850,7 +1850,7 @@ GameObject:
   - component: {fileID: 305181187}
   - component: {fileID: 305181186}
   - component: {fileID: 305181185}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2621,7 +2621,7 @@ GameObject:
   - component: {fileID: 398028331}
   - component: {fileID: 398028330}
   - component: {fileID: 398028329}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3920,7 +3920,7 @@ GameObject:
   - component: {fileID: 777126487}
   - component: {fileID: 777126486}
   - component: {fileID: 777126485}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4644,7 +4644,7 @@ GameObject:
   - component: {fileID: 868781145}
   - component: {fileID: 868781144}
   - component: {fileID: 868781143}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5474,7 +5474,7 @@ GameObject:
   - component: {fileID: 1011017139}
   - component: {fileID: 1011017138}
   - component: {fileID: 1011017137}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6162,7 +6162,7 @@ GameObject:
   - component: {fileID: 1090094554}
   - component: {fileID: 1090094553}
   - component: {fileID: 1090094552}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6768,9 +6768,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Object To Spawn","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"YspawnOffset","value":{"$content":0.2,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Object To Spawn","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"YspawnOffset","value":{"$content":0.2,"$type":"System.Single"},"$version":"A"},{"name":"Player","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 6670937867304243471, guid: 936dfb7685ba0e94f9226b7703d0eaf7, type: 3}
+    - {fileID: 1796282969741136514}
 --- !u!114 &1185034589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7418,7 +7419,7 @@ GameObject:
   - component: {fileID: 1322986319}
   - component: {fileID: 1322986318}
   - component: {fileID: 1322986317}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8254,7 +8255,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1567060169}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.09, y: 0.055, z: -2.415}
+  m_LocalPosition: {x: -5.53, y: 0.055, z: 2.15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1590181645}
@@ -9136,7 +9137,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_BuildHeightMesh: 0
-  m_NavMeshData: {fileID: 23800000, guid: c333e3d29efab1e44a187d9371131452, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 43fd8a1688ae7e9459c539de158ecab4, type: 2}
 --- !u!4 &1816217557
 Transform:
   m_ObjectHideFlags: 0
@@ -9491,7 +9492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"trainActive","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"train1Complete","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Canvas","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"trainActive","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"train1Complete","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Canvas","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"doubleJumpCooldown","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"playerActive","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 171009694}
 --- !u!4 &1864742926
@@ -9644,7 +9645,7 @@ GameObject:
   - component: {fileID: 1901133037}
   - component: {fileID: 1901133036}
   - component: {fileID: 1901133035}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9960,7 +9961,7 @@ GameObject:
   - component: {fileID: 1932538391}
   - component: {fileID: 1932538390}
   - component: {fileID: 1932538389}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12878,7 +12879,6 @@ GameObject:
   - component: {fileID: 1796282969741136542}
   - component: {fileID: 1796282969741136541}
   - component: {fileID: 494754558}
-  - component: {fileID: 1796282969741136516}
   m_Layer: 0
   m_Name: Player Contoller
   m_TagString: Player
@@ -12900,22 +12900,8 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 1
---- !u!136 &1796282969741136516
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1796282969741136514}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2.0149267
-  m_Direction: 1
-  m_Center: {x: 0, y: 0.009118301, z: 0}
+  m_Constraints: 16
+  m_CollisionDetection: 2
 --- !u!4 &1796282969741136540
 Transform:
   m_ObjectHideFlags: 0
@@ -13823,10 +13809,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 172064327458334719, guid: a3c13f1b62f39b14c9867be4010bb9f8, type: 3}
-      propertyPath: m_IsKinematic
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3c13f1b62f39b14c9867be4010bb9f8, type: 3}
 --- !u!1 &2443961811420938795
@@ -14518,6 +14500,18 @@ PrefabInstance:
     - target: {fileID: 4073191271026524469, guid: a788518ac9ac7a649843eca4352017b2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8567433408915561081, guid: a788518ac9ac7a649843eca4352017b2, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"Object To Spawn","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"YspawnOffset","value":{"$content":0.2,"$type":"System.Single"},"$version":"A"},{"name":"IsHolding","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8567433409199874218, guid: a788518ac9ac7a649843eca4352017b2, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"Object To Spawn","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"YspawnOffset","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"IsHolding","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8567433410096645542, guid: a788518ac9ac7a649843eca4352017b2, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"Object To Spawn","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"YspawnOffset","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"IsHolding","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a788518ac9ac7a649843eca4352017b2, type: 3}
