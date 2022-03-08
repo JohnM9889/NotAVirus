@@ -33,6 +33,7 @@ Transform:
   - {fileID: 4305996575851254983}
   - {fileID: 4305996576418601689}
   - {fileID: 4305996576534770545}
+  - {fileID: 7120256923617516214}
   m_Father: {fileID: 172064327766560670}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -135,13 +136,14 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"self_collider","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Whole_enemy","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"freezelocation","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"TailPosition","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PatrolPoint
       1","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PatrolPoint
-      2","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      2","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"StompTrigger","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 172064327766560666}
     - {fileID: 172064327458334714}
     - {fileID: 4305996575851254982}
     - {fileID: 0}
     - {fileID: 0}
+    - {fileID: 8491250048388591740}
 --- !u!195 &172064327458334718
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -327,7 +329,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 91fac9a4f9f00994b85c6a944f03f7af, type: 2}
+  - {fileID: 2100000, guid: fe55f94ead73f7b41aa8b42e4089fed4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -421,7 +423,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 91fac9a4f9f00994b85c6a944f03f7af, type: 2}
+  - {fileID: 2100000, guid: fe55f94ead73f7b41aa8b42e4089fed4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -633,3 +635,47 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &8491250048388591740
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7120256923617516214}
+  - component: {fileID: 3371882073040326686}
+  m_Layer: 0
+  m_Name: StompTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7120256923617516214
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8491250048388591740}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.09, z: -0.087}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 172064327412455296}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &3371882073040326686
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8491250048388591740}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5294094, y: 0.1801514, z: 0.58601284}
+  m_Center: {x: 0.021614075, y: 0.49690214, z: 0.097136974}
