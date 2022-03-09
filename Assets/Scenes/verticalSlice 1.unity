@@ -6768,7 +6768,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Object To Spawn","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"YspawnOffset","value":{"$content":0.2,"$type":"System.Single"},"$version":"A"},{"name":"Player","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Object To Spawn","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"YspawnOffset","value":{"$content":0.2,"$type":"System.Single"},"$version":"A"},{"name":"Player","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"IsHolding","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 6670937867304243471, guid: 936dfb7685ba0e94f9226b7703d0eaf7, type: 3}
     - {fileID: 1796282969741136514}
@@ -9492,7 +9492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"trainActive","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"train1Complete","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Canvas","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"doubleJumpCooldown","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"playerActive","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"trainActive","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"train1Complete","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Canvas","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"doubleJumpCooldown","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"playerActive","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"ApplicationCount","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"SpawnedObject","value":null,"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 171009694}
 --- !u!4 &1864742926
@@ -12900,7 +12900,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 16
+  m_Constraints: 112
   m_CollisionDetection: 2
 --- !u!4 &1796282969741136540
 Transform:
