@@ -292,6 +292,7 @@ GameObject:
   - component: {fileID: 7601094774388403818}
   - component: {fileID: 6832902888494244303}
   - component: {fileID: 8734643174491837701}
+  - component: {fileID: 4314802650122563654}
   m_Layer: 0
   m_Name: Portal Ring
   m_TagString: Untagged
@@ -362,6 +363,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4314802650122563654
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7077217424907433168}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5208879343037863941, guid: 83478f4646c5d5c44a1d710828391f45, type: 3}
 --- !u!1 &7995642036320989483
 GameObject:
   m_ObjectHideFlags: 0
@@ -644,7 +659,6 @@ GameObject:
   - component: {fileID: 7995642037011659654}
   - component: {fileID: 7995642037011659655}
   - component: {fileID: 7995642037011659652}
-  - component: {fileID: 7995642037011659653}
   m_Layer: 0
   m_Name: CullBack
   m_TagString: Untagged
@@ -715,17 +729,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &7995642037011659653
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7995642037011659650}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
