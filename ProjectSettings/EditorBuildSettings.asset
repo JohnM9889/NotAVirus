@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/verticalSlice 1.unity
     guid: 5cf99131fdbe47348a27bf7486398333
+  - enabled: 1
+    path: Assets/Keegan/Scene/Testing.unity
+    guid: 8966705f727cf0649b41845809dd440d
   m_configObjects: {}
