@@ -9,12 +9,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Demo Scene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 0
-    path: Assets/Zoe/Scenes/Level 5.unity
-    guid: 944caf147ffff5c40bc4860bd0dbef84
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Keegan/Scene/Testing.unity
+    guid: 8966705f727cf0649b41845809dd440d
   - enabled: 1
     path: Assets/Scenes/verticalSlice 1.unity
     guid: 5cf99131fdbe47348a27bf7486398333
   - enabled: 1
-    path: Assets/Keegan/Scene/Testing.unity
-    guid: 8966705f727cf0649b41845809dd440d
+    path: Assets/Yigong/level4.unity
+    guid: 9f398ce2d345af043aae0db7980b3411
+  - enabled: 1
+    path: Assets/Scenes/final level.unity
+    guid: c5c424dba43887e42bfb2f0d47fa568d
   m_configObjects: {}
