@@ -40,7 +40,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3193380411100733302}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FallingPlatform2_LP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75,7 +75,7 @@ GameObject:
   - component: {fileID: 461412703117934144}
   - component: {fileID: 7647737595162659386}
   - component: {fileID: 2654433108534375483}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Platform_LP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5265,7 +5265,7 @@ GameObject:
   - component: {fileID: 1253544202492972254}
   - component: {fileID: 1434111520036048761}
   - component: {fileID: 668330942419521667}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TopRing_LP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
